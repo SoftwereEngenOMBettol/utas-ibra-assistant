@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#667eea" />
+    <meta name="description" content="AI-Powered Virtual Assistant for UTAS Ibra - Student Support Services" />
+    <meta name="keywords" content="UTAS, Ibra, Virtual Assistant, AI Chatbot, Student Support" />
+    <meta name="author" content="UTAS Ibra" />
+    
+    <title>UTAS Ibra Assistant | AI Student Support</title>
+    
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="UTAS Ibra Assistant" />
+    <meta property="og:description" content="AI-Powered Virtual Assistant for UTAS Ibra Students" />
+    <meta property="og:image" content="/utas-logo.png" />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .loading-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-family: 'Cairo', sans-serif;
+            flex-direction: column;
+        }
+        .loading-logo {
+            text-align: center;
+            animation: fadeIn 0.5s ease;
+        }
+        .loading-logo img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            border-radius: 50%;
+            background: white;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 3px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s ease-in-out infinite;
+            margin: 20px auto;
+        }
+        .loading-title {
+            font-size: 24px;
+            font-weight: 600;
+            margin: 10px 0;
+        }
+        .loading-subtitle {
+            font-size: 14px;
+            opacity: 0.8;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div id="root">
+        <div class="loading-container">
+            <div class="loading-logo">
+                <!-- Change this image URL to your logo -->
+                <img src="/utas-logo.png" alt="UTAS Logo" />
+                <div class="loading-spinner"></div>
+                <div class="loading-title">UTAS Ibra Assistant</div>
+                <div class="loading-subtitle">AI-Powered Student Support</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

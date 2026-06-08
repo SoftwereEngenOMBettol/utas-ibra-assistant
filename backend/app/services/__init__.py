@@ -1,0 +1,41 @@
+# backend/app/services/__init__.py
+
+from .gemini_service import (
+    generate_response,
+    generate_faqs_from_content,
+    generate_faqs_with_html,
+    extract_categories_with_gemini,
+    extract_with_gemini,
+    build_html_response,
+    save_beautiful_faqs_to_db,
+    validate_language_consistency,
+    test_gemini_connection,
+    SmartChatService,
+    get_smart_chat_service,
+    process_chat_message,
+    handle_gpa_query,
+    handle_schedule_query,
+    handle_attendance_query,
+    detect_intent,
+    model,
+)
+
+__all__ = [
+    'generate_response',
+    'generate_faqs_from_content',
+    'generate_faqs_with_html',
+    'extract_categories_with_gemini',
+    'extract_with_gemini',
+    'build_html_response',
+    'save_beautiful_faqs_to_db',
+    'validate_language_consistency',
+    'test_gemini_connection',
+    'SmartChatService',
+    'get_smart_chat_service',
+    'process_chat_message',
+    'handle_gpa_query',
+    'handle_schedule_query',
+    'handle_attendance_query',
+    'detect_intent',
+    'model',
+]
