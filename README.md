@@ -27,17 +27,27 @@ Anything the assistant cannot answer is logged as a **pending question**, which 
 
 ## Demo
 
-A recorded walkthrough is included in the repository: [`UTAS Assistant Demo_compressed.mp4`](./UTAS%20Assistant%20Demo_compressed.mp4)
+![Demo](docs/demo.gif)
 
-> Consider uploading this to YouTube and linking it here instead — a 14 MB video makes the repo slow to clone, and GitHub won't play it inline.
+The full recorded walkthrough is in the repository: [`UTAS Assistant Demo_compressed.mp4`](./UTAS%20Assistant%20Demo_compressed.mp4)
 
 ## Screenshots
 
-> Add images to a `docs/` folder and link them here.
+**Student experience**
 
-| Student chat | Admin dashboard | FAQ manager |
+| Sign in | Assistant home | GPA from the live database |
 | --- | --- | --- |
-| ![Chat](docs/screenshot-chat.png) | ![Dashboard](docs/screenshot-dashboard.png) | ![FAQ](docs/screenshot-faq.png) |
+| ![Login](docs/01-login.jpg) | ![Chat](docs/02-chat-welcome.jpg) | ![GPA](docs/03-gpa-answer.jpg) |
+
+| Full Arabic interface | Suggested questions | Timetable as a PDF |
+| --- | --- | --- |
+| ![Arabic](docs/04-arabic.jpg) | ![Quick questions](docs/05-quick-questions.jpg) | ![PDF](docs/06-pdf-timetable.jpg) |
+
+**Administration**
+
+| Usage dashboard | AI-generated FAQs | Answer rating |
+| --- | --- | --- |
+| ![Dashboard](docs/08-admin-dashboard.jpg) | ![FAQ Manager](docs/09-faq-manager.jpg) | ![Rating](docs/07-rating.jpg) |
 
 ---
 
